@@ -2,11 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
     android:orientation="vertical" >
-
-    <TextView
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_weight="0.95" >
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/username"
+            android:width="270px" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/input_username"
+            android:layout_below="@+id/input_username"
+            android:layout_marginTop="17dp"
+            android:inputType="textPassword"
+            android:text="@string/password"
+            android:width="270px" />
+
+    </RelativeLayout>
 
 </LinearLayout>
