@@ -1,6 +1,6 @@
 package finappers.eazybk.common.business;
 
-interface AccountInterface {
+public interface AccountInterface {
 	
 	float getBalance();
 	void setBalance(float balance); 
