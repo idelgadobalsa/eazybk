@@ -9,7 +9,7 @@ import java.util.Date;
  * @author ifraixedes
  * 
  */
-public class BasicCredit implements CreditInterface {
+public class BasicLoan implements LoanInterface {
 	/** Attributes */
 	protected float totalAmount;
 	protected float returnedAmount;

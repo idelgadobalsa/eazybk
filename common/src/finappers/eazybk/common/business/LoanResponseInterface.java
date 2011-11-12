@@ -1,6 +1,6 @@
 package finappers.eazybk.common.business;
 
-public interface CreditResponseInterface extends CreditWorkflowInterface {
+public interface LoanResponseInterface extends LoanWorkflowInterface {
 
 	String getDetails();
 	void setDetails(String details);

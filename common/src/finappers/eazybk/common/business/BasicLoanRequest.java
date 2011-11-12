@@ -11,7 +11,7 @@ import java.util.Date;
  */
 
 
-public class CreditRequestSimple extends CreditWorkflowSimpleAbstract implements CreditRequestInterface { 
+public class BasicLoanRequest extends BasicLoanWorkflowAbstract implements LoanRequestInterface { 
 	protected String concept;
 	protected String description;
 	protected float amount;

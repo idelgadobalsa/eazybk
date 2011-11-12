@@ -7,7 +7,7 @@ package finappers.eazybk.common.business;
  * @author ifraixedes
  * 
  */
-public class Account implements AccountInterface {
+public class BasicAccount implements AccountInterface {
 	/** Attributes */
 	protected float balance;
 	protected String name;
