@@ -12,4 +12,6 @@ public interface LoanRequestInterface extends LoanWorkflowInterface {
 	void setEndDate(Date date);
 	String getConcept();
 	void setConcept(String concept);
+	LoanResponseInterface getResponse();
+	void setResponse(LoanResponseInterface response);
 }
