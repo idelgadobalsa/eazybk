@@ -9,10 +9,17 @@ package finappers.eazybk.common.business;
  */
 public class BasicAccount implements AccountInterface {
 	/** Attributes */
-	protected float balance;
 	protected String name;
+	protected float balance;
 
 
+
+
+	public BasicAccount(String name, float balance) {
+		super();
+		this.name = name;
+		this.balance = balance;
+	}
 
 	/**
 	 * @return the balance

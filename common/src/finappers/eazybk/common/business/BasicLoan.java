@@ -10,8 +10,19 @@ import java.util.Date;
  * 
  */
 public class BasicLoan implements LoanInterface {
+
 	/** Attributes */
 	protected float totalAmount;
+	public BasicLoan(String name, float totalAmount, float percentageInterest,
+			Date initDate, Date endDate) {
+		super();
+		this.name = name;
+		this.totalAmount = totalAmount;
+		this.percentageInterest = percentageInterest;
+		this.initDate = initDate;
+		this.endDate = endDate;
+	}
+
 	protected float returnedAmount;
 	protected float percentageInterest;
 	protected float paidAmountInterest;

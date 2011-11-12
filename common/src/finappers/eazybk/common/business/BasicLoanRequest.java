@@ -12,6 +12,7 @@ import java.util.Date;
 
 
 public class BasicLoanRequest extends BasicLoanWorkflowAbstract implements LoanRequestInterface { 
+
 	protected String concept;
 	protected String description;
 	protected float amount;
@@ -24,7 +25,16 @@ public class BasicLoanRequest extends BasicLoanWorkflowAbstract implements LoanR
 	public BasicLoanRequest() {
 		response = null;
 	}
-	
+
+	public BasicLoanRequest(String concept, float amount, Date initDate,
+			Date endDate) {
+		this.response = null;
+		this.concept = concept;
+		this.amount = amount;
+		this.initDate = initDate;
+		this.endDate = endDate;
+	}
+
 	/**
 	 * @return the concept
 	 */
