@@ -2,7 +2,7 @@ package finappers.eazybk.common.business;
 
 enum simpleStates {WAITING, APPROVED, DENIED};
 
-public class CreditWorkflowSimpleAbstract implements CreditWorkflowInterface {
+public class BasicLoanWorkflowAbstract implements LoanWorkflowInterface {
 	
 	protected simpleStates state;
 	

@@ -9,7 +9,7 @@ import java.util.Date;
  * @author ifraixedes
  *
  */
- interface CreditInterface {
+ interface LoanInterface {
 
 	 float getTotalAmount() ;
 	 void setTotalAmount(float totalAmount);

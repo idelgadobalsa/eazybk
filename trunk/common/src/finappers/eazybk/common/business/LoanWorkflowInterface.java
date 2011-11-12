@@ -7,7 +7,7 @@ package finappers.eazybk.common.business;
  * @author ifraixedes
  *
  */
-public interface CreditWorkflowInterface {
+public interface LoanWorkflowInterface {
 
 	boolean isApproved();
 	boolean isDenied();
