@@ -55,7 +55,7 @@ public class BasicAccount implements AccountInterface {
 	 * @param amount
 	 * @return
 	 */
-	public void substract(float amount) {
+	public void subtract(float amount) {
 	}
 
 	/**

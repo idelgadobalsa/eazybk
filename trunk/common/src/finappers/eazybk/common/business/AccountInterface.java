@@ -6,6 +6,6 @@ public interface AccountInterface {
 	void setBalance(float balance); 
 	String getName();
 	void setName(String name);
-	void substract(float amount);
+	void subtract(float amount);
 	void add(float amount);
 }
