@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Dashboard" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".ModifyCash" android:theme="@android:style/Theme.NoTitleBar"></activity>
     </application>
 
 </manifest>
