@@ -2,8 +2,237 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:paddingTop="80px"
+    android:paddingLeft="32px" 
+    android:paddingRight="32px"
+    android:background="@drawable/dashboard_bg" >
 
-    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60px"
+        android:gravity="bottom|center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_cash"
+            style="@style/text24pxgreen"/> 
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00.00"
+                style="@style/text60pxgreen"
+                android:textStyle="bold" />
+            
+            <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/euro_Symbol"
+            style="@style/text60pxgreen"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingTop="8px">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoming"
+            style="@style/text24pxgreen"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            style="@style/text24pxgreen"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/euro_Symbol"
+            style="@style/text24pxgreen"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingTop="8px">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/substract"
+            style="@style/text24pxgreen"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-00.00"
+            style="@style/text24pxred"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/euro_Symbol"
+            style="@style/text24pxred"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingTop="8px">
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:progressDrawable="@drawable/custom_pb"        
+        android:layout_width="400px"
+        android:layout_height="8px" 
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="20"
+        />
+	</LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingTop="8px">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/savings"
+            style="@style/text24pxgreen"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            style="@style/text24pxgreen"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/euro_Symbol"
+            style="@style/text24pxgreen"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingTop="60px">
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="0.5" >
+
+            <Button
+			    android:layout_width="144px"
+			    android:layout_height="144px"
+			    android:background="@drawable/add_cash_btn"
+			    />
+            <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_cash"
+            style="@style/text18pxgreen"
+            android:paddingTop="25px"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="0.5" >
+
+            <Button
+			    android:layout_width="144px"
+			    android:layout_height="144px"
+			    android:background="@drawable/remove_cash_btn"
+			    />
+            <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_cash"
+            style="@style/text18pxgreen"
+            android:paddingTop="25px"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="70px">
+
+            <Button
+                style="@style/text30pxgreen"
+                android:layout_width="fill_parent"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="My Loans" />
+
+            <Button
+                style="@style/text30pxgreen"
+                android:layout_width="fill_parent"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="My Points" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

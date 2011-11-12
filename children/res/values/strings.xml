@@ -5,5 +5,12 @@
     <string name="app_name">Children</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="my_cash">"my cash: "</string>
+    <string name="incoming">incoming :</string>
+    <string name="substract">substract :</string>
+    <string name="savings">savings :</string>
+    <string name="euro_Symbol">€</string>
+    <string name="remove_cash">remove cash</string>
+    <string name="add_cash">add cash</string>
 
 </resources>
