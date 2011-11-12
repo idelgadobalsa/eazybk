@@ -28,15 +28,13 @@
             android:inputType="textPassword"
             android:text="@string/password"
             android:width="270px" />
-
+
         <Button
-            android:id="@+id/button1"
-            android:layout_width="270px" 
+            android:id="@+id/submitButton"
+            android:layout_width="270px"
             android:layout_height="wrap_content"
             android:layout_marginTop="90px"
-            
+            android:onClick="submitAuth"
             android:text="Submit" />
-
-    
 
 </LinearLayout>
