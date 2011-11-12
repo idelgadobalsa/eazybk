@@ -12,6 +12,10 @@
         <item name="android:textColor">#42826c</item>
         <item name="android:textSize">30px</item>
     </style>
+    <style name="text36pxgreen">
+        <item name="android:textColor">#42826c</item>
+        <item name="android:textSize">36px</item>
+    </style>
     <style name="text60pxgreen">
         <item name="android:textColor">#42826c</item>
         <item name="android:textSize">60px</item>
@@ -19,6 +23,10 @@
     <style name="text24pxred">
         <item name="android:textColor">#c84663</item>
         <item name="android:textSize">24px</item>
+    </style>
+    <style name="text36pxred">
+        <item name="android:textColor">#c84663</item>
+        <item name="android:textSize">36px</item>
     </style>
     <style name="text60pxlightgreen">
         <item name="android:textColor">#a5c77f</item>
@@ -28,7 +36,13 @@
         <item name="android:textColor">#ffc861</item>
         <item name="android:textSize">24px</item>
     </style>
+    <style name="text18pxgray">
+        <item name="android:textColor">#6e6e6e</item>
+        <item name="android:textSize">18px</item>
+    </style>
     
+        
+        
 <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
