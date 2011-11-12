@@ -12,5 +12,6 @@
     <string name="euro_Symbol">€</string>
     <string name="remove_cash">remove cash</string>
     <string name="add_cash">add cash</string>
+    <string name="modify_cash">modify cash</string>
 
 </resources>

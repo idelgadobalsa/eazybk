@@ -20,6 +20,14 @@
         <item name="android:textColor">#c84663</item>
         <item name="android:textSize">24px</item>
     </style>
+    <style name="text60pxlightgreen">
+        <item name="android:textColor">#a5c77f</item>
+        <item name="android:textSize">60px</item>
+    </style>
+    <style name="text24pxyellow">
+        <item name="android:textColor">#ffc861</item>
+        <item name="android:textSize">24px</item>
+    </style>
     
 <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
         <item name="android:layout_width">fill_parent</item>
