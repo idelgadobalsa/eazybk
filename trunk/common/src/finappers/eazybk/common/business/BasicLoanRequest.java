@@ -18,7 +18,13 @@ public class BasicLoanRequest extends BasicLoanWorkflowAbstract implements LoanR
 	protected Date initDate;
 	protected Date endDate;
 	protected Date requestDate;
+	protected BasicLoanResponse response;
 
+	
+	public BasicLoanRequest() {
+		response = null;
+	}
+	
 	/**
 	 * @return the concept
 	 */
@@ -91,6 +97,18 @@ public class BasicLoanRequest extends BasicLoanWorkflowAbstract implements LoanR
 	 */
 	public void setRequestDate(Date requestDate) {
 		this.requestDate = requestDate;
+	}
+
+	@Override
+	public LoanResponseInterface getResponse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setResponse(LoanResponseInterface response) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

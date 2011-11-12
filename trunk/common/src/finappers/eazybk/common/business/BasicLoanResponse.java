@@ -10,13 +10,13 @@ import java.util.Date;
  * 
  */
 
-public class LoanResponseSimple extends BasicLoanWorkflowAbstract implements LoanResponseInterface {
+public class BasicLoanResponse extends BasicLoanWorkflowAbstract implements LoanResponseInterface {
 
 	protected String details;
 	protected Date responseDate;
 
 	
-	public LoanResponseSimple() {
+	public BasicLoanResponse() {
 		this.state = simpleStates.WAITING;
 	}
 	
