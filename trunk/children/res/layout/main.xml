@@ -3,20 +3,16 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/main_bg"
+    android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical" >
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.95" >
-
+
         <EditText
             android:id="@+id/input_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:layout_marginTop="150px"
             android:text="@string/username"
             android:width="270px" >
 
@@ -27,9 +23,8 @@
             android:id="@+id/input_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/input_username"
-            android:layout_below="@+id/input_username"
-            android:layout_marginTop="17dp"
+            
+            android:layout_marginTop="17px"
             android:inputType="textPassword"
             android:text="@string/password"
             android:width="270px" />
@@ -38,11 +33,10 @@
             android:id="@+id/button1"
             android:layout_width="270px" 
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="22dp"
+            android:layout_marginTop="90px"
+            
             android:text="Submit" />
 
-    </RelativeLayout>
+    
 
 </LinearLayout>
