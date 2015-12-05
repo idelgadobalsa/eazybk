@@ -1,0 +1,7 @@
+La aplicació s'ha anat creant des de l'inici pensant en un desenvolupament en visió de que gran par del codi que s'ha generat en el concurs de la FinAppsParty 2011 sigui aprofitable per poder-lo utilitzar per desenvolupar una versió de la aplicació de utilitat per a la major part del public comprés del grup social al que està dirigit.
+
+Això ha permès que el que s'ha desenvolupat estableixi la base esmentada, la qual, encara de breu espai temporal que es disposava, 24 hores, no s'ha volgut descartar, en contraposició de haver desenvolupat un prototip complert però pel fet de ser un prototip gran part de la feina no hagués estat aprofitable pel desenvolupament real de la aplicació.
+
+Haver pres aquest decisió ha tingut l'inconvenient de no haver pogut acabar el prototip bàsic que hagués permès veure d'una manera més visual les funcionalitats i possiblement l'objectiu de la aplicació.
+
+Degut a tot això en la part de descarrega trobareu el diagrames de classes de gran part de la arquitectura base i alguns diagrames referents a classes “bàsiques” que s'han implementat sobre l'arquitectura amb l'objectiu de desenvolupar el prototip, però malauradament per manca de temps no ha estat possible finalitzar-lo.

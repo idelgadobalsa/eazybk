@@ -1,0 +1,3 @@
+Creació de dos aplicacions lligades entre si, de manera que el genitors es transformen en un banc pels seus fills, podent assignar una mensualitat, la gestió de "credits" amb interesos, "punts",etc
+Per la part del fill poden controlar les seves petites finances de manera independent i fins i tot solitar un "prestec" als seus pares amb condicions d'interes.
+Es tracta en fí de ensenyar una mica de cultura financera als joves amb les seves primeres finaces domestiques.
